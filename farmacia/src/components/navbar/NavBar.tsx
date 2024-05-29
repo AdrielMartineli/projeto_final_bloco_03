@@ -1,4 +1,5 @@
-import { FirstAid, PhosphorLogo } from "@phosphor-icons/react"
+import { FirstAid } from "@phosphor-icons/react"
+import { Link } from "react-router-dom"
 function Navbar() {
  
     return (
@@ -11,9 +12,9 @@ function Navbar() {
         <div className="flex gap-4">
             <ul className=" grid-rows-8 flex gap-7 text-1xl justify-between">
                 
-                <li className='hover:underline'>Categorias</li>
-                <li className='hover:underline'>Cadastrar Produtos</li>
-                
+                <li className='hover:underline'><Link to='/categorias' className='hover:underline'>Categorias</Link></li>
+                <li className='hover:underline'><Link to='/formCategoria' className='hover:underline'> Cadastrar Categorias</Link> </li>
+                <li className='hover:underline'><Link to='/' className='hover:underline'> Pagina Inicial</Link> </li>
             </ul>
         </div>
         </div>

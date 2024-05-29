@@ -12,6 +12,7 @@ export default {
       'cinza':'#E0E1DD',
       'preto':'#000000',
       'branco':'#ffffff',
+      'vermelho':'#c1121f'
 
     },
     extend: {},
